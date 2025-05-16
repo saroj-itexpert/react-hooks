@@ -11,9 +11,9 @@ const Counter = () => {
     })
 
     const changeColor = ()=>{
-        // setCar( (prev) =>{
-        //     return {...prev, color:"Blue"}
-        // })
+        setCar( (prev) =>{
+            return {...prev, color:"Blue"}
+        })
         // setCar({color: "Blue"}); if you do this , all other properties would get lost and only blue remains.
     
     }
